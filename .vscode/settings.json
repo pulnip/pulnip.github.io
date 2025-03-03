@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        ".jekyll-cache/": true,
+        "_includes/": true,
+        "_layouts/": true,
+        "_sass/": true,
+        "_site/": true,
+        "Gemfile.lock": true
+    }
+}
