@@ -3,7 +3,7 @@ title: 지역적 밝기 변화 검출하기
 tags:
   - study
 date: 2025-03-03
-thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/93/Valve_monochrome_canny_%286%29.PNG
+thumbnail: /assets/img/edge_profile.png
 ---
 # 영상의 (지역적) 특징들
 ---
@@ -32,6 +32,34 @@ $$\frac{\partial f(x)}{\partial x}=f(x+1)-2f(x)+f(x-1)$$
 	고립 점: 단일 픽셀 위치에서의 급격한 밝기 변화
 
 점은 그 밝기가 [이웃]({% link _pages/Computer-Science/Computer-Vision/Neighbors-of-Pixel.md %}) 픽셀과 매우 다른 픽셀을 의미한다.
+- 4-이웃만을 고려한다면, **라플라시안**을 통해서 검출할 수 있다.
+- 8-이웃을 고려한다면, **라플라시안 커널**을 통해서 검출할 수 있다.
 
-# Edge Detector
+# 선, 에지 검출
+	급격한 밝기 변화가 방향성을 가진다면, 그곳에 선이 있다고 볼 수 있다.
+
+*등방성*을 가지는 라플라시안 커널로는 **방향성**을 가지는 선을 검출할 수 없다.
+그러므로, 방향성을 가지는 커널을 사용하자.
+
+![](/assets/img/kernels_line.png)
+
+선을 검출하는 것은 (필터링 후, 곧바로 문턱치 처리를 함으로써) 점을 검출하는 것과 다르다.
+선은 여러 방향성을 가지므로, 한 커널이 다른 커널의 응답 값에 비해 월등히 클 때만 선이라고 검출할 수 있기 때문이다. 또, 검출된 픽셀은 그 위치에서 반응한 커널과 같은 방향성을 가진다고 볼 수 있다.
+
+## 에지 모델
+
+에지 모델은 밝기 프로파일로부터 만들어진다.
+에지는 이상적으로 **계단**, **비탈(ramp)**, **지붕(roof)** 으로 나눌 수 있다.
+
+![](/assets/img/edge_profile.png)
+
+# 에지 검출에 필요한 단계
+
+에지는 방향성을 가지고 **[연결]({% link _pages/Computer-Science/Computer-Vision/Neighbors-of-Pixel.md %})** 된 점의 집합이다. 각 점을 **에지 픽셀**이라고 한다면, 에지 픽셀은 에지를 만들 가능성이 있지만 에지는 아니다. 또, 2차 미분은 노이즈에 민감하다는 것을 고려해야 한다. 따라서 다음과 같은 단계가 필요하다.
+
+1. 노이즈 축소를 위한 영상 평활화
+2. 에지 점 검출
+3. 에지 위치 인식 (픽셀의 연결성)
+
+## Edge Detector
 - [Canny Edge Detector]({% link _pages/Computer-Science/Computer-Vision/Canny-edge-detector.md %})
