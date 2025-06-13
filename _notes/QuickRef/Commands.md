@@ -7,7 +7,7 @@ permalink: /cmd
 format: post
 
 ---
-
+a
 ## 터미널 단축키 리스트
 
 | 기능                 |    커맨드     | 설명                    |
