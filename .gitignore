@@ -1,0 +1,6 @@
+_site
+Gemfile.lock
+.jekyll-cache
+pages/tags.md
+_notes/.obsidian
+.DS_Store
