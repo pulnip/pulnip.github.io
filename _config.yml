@@ -109,6 +109,7 @@ exclude:
   - Gemfile
   - Gemfile.
   - _notes/.obsidian/
+  - _notes/정리할 거
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
