@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 :root {
-  --bg: rgb(255, 252, 240);
-  --bg2: rgb(242, 240, 229);
-  --text: #6f6e69;
-  --title: #343331;
-  --brand: rgb(58, 169, 159);
-  --border: rgb(230, 228, 217);
+  --bg: #18181c;
+  --bg2: #23232a;
+  --text: #d6d6d6;
+  --title: #fff;
+  --brand: #3ac9b0;
+  --border: #33343a;
   
   --font: "Inter", sans-serif;
   --weight-medium: 400;
@@ -30,13 +30,13 @@
 }
 
 /* Dark theme variables */
-[data-theme="dark"] {
-  --bg: #18181c;
-  --bg2: #23232a;
-  --text: #d6d6d6;
-  --title: #fff;
-  --brand: #3ac9b0;
-  --border: #33343a;
+[data-theme="light"] {
+  --bg: #fffcf0;
+  --bg2: #f2f0e5;
+  --text: #6f6e69;
+  --title: #343331;
+  --brand: #3aa99f;
+  --border: #e6e4d9;
 }
 
 html, body {
