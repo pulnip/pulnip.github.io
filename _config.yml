@@ -35,10 +35,10 @@ preferences:
     enabled: true
 
 # Site Configuration
-title: "Your Site Title"
-heading: "Your Name"
-description: "A brief description of your site"
-url: "https://yoursite.com"
+title: "My Blog"
+heading: "Pulnip"
+description: "personal blog"
+url: "https://github.com/pulnip/pulnip.github.io"
 baseurl: ""
 
 # Asset Configuration
@@ -57,7 +57,7 @@ menu:
 
 # Footer
 footer:
-  copyright: "© 2024 Your Name. Contents under CC-BY-NC"
+  copyright: "© 2025 Pulnip. Contents under CC-BY-NC"
   credits:
     enabled: true
     url: "/credits"
