@@ -1,5 +1,5 @@
 ---
-title: CrowyEngine 개발 일지 (2)
+title: CrowyEngine 개발 일지 (1)
 feed: show
 date: 2025-12-28
 ---
