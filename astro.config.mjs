@@ -18,6 +18,7 @@ import remarkSectionize from "remark-sectionize";
 import { expressiveCodeConfig } from "./src/config.ts";
 import { pluginCustomCopyButton } from "./src/plugins/expressive-code/custom-copy-button.js";
 import { pluginLanguageBadge } from "./src/plugins/expressive-code/language-badge.ts";
+import { postVideos, remarkVideoEmbed } from "./src/plugins/post-videos.mjs";
 import { AdmonitionComponent } from "./src/plugins/rehype-component-admonition.mjs";
 import { GithubCardComponent } from "./src/plugins/rehype-component-github-card.mjs";
 import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
@@ -103,6 +104,7 @@ export default defineConfig({
 		}),
 		svelte(),
 		sitemap(),
+		postVideos(),
 	],
 	markdown: {
 		remarkPlugins: [
@@ -114,6 +116,7 @@ export default defineConfig({
 			remarkSectionize,
 			parseDirectiveNode,
 			remarkMarkdownLinks,
+			remarkVideoEmbed,
 		],
 		rehypePlugins: [
 			rehypeKatex,
