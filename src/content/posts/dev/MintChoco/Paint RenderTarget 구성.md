@@ -9,12 +9,12 @@ category: MintChoco
 ---
 ## RenderTarget2D
 
+RenderTarget2D는 말은 거창하지만, 간단하게 그냥 텍스처이다.
+
 이 페이지에서는
 1. 왜 RenderTarget2D를 사용했는지,
 2. RenderTarget2D 내부는 어떻게 구성되어있는지
 설명한다.
-
-RenderTarget2D는 말은 거창하지만, 간단하게 그냥 텍스처이다.
 
 ---
 ### RenderTarget2D와 Decal의 차이점
@@ -109,6 +109,14 @@ RenderTarget2D라는 텍스처를 그러면 어떻게 만들 것인가. Paintabl
 읽는 방법은 픽셀 별로 구한 노말 벡터를 이용한다.
 1. x, y, z중 어느 축이 가장 큰 지 그리고 그 축의 부호를 이용해 읽을 면을 정한다.
 2. 남은 두 축 값을 uv처럼 사용해서 저장된 값을 읽는다.
+
+이렇게 읽으면 Cube가 아닌 모양에 대해서도 PaintableComponent를 붙일 수 있다.
+
+![](Sphere-RenderTarget.mp4)
+
+---
+
+### RenderTarget 채널 구성
 
 ![](paint-rgba.png)
 

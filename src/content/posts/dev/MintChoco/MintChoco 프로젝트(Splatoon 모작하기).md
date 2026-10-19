@@ -50,3 +50,4 @@ UE에서 AI와 만든 결과물을 이해해보고자, 내 CrowyEngine에서 다
 ### 3. Paint 구성
 
 - [Paint RenderTarget 구성](Paint%20RenderTarget%20구성.md)
+- [Paint와 점수 판정](Paint와%20점수%20판정.md)

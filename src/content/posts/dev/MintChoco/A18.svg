@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 70 1600 830" width="1600" height="830">
+<title>A18 그림과 점수의 분기: 같은 스플랫, 서로 모르는 두 경로</title>
+<rect y="70" width="1600" height="830" fill="#FFFFFF"/>
+<rect x="480.00" y="100.00" width="640.00" height="100.00" rx="14" fill="#F3ECE6" stroke="#6B4430" stroke-width="2.5" opacity="1.0"/>
+<text x="800.00" y="146.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="34" fill="#2B1B12" text-anchor="middle" font-weight="bold">ApplySplat</text>
+<text x="800.00" y="184.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="24" fill="#2A221D" text-anchor="middle" font-weight="normal">UPaintableComponent · FPaintSplat</text>
+<line x1="640.00" y1="200.00" x2="420.00" y2="306.00" stroke="#2B1B12" stroke-width="3" opacity="1.0"/>
+<polygon points="420.00,306.00 430.57,293.99 435.98,305.22" fill="#2B1B12" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<line x1="960.00" y1="200.00" x2="1180.00" y2="306.00" stroke="#2B1B12" stroke-width="3" opacity="1.0"/>
+<polygon points="1180.00,306.00 1164.02,305.22 1169.43,293.99" fill="#2B1B12" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<text x="160.00" y="262.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="30" fill="#6B4430" text-anchor="start" font-weight="bold">CPU · 점수</text>
+<text x="1440.00" y="262.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="30" fill="#1FA88E" text-anchor="end" font-weight="bold">GPU · 그림</text>
+<rect x="160.00" y="310.00" width="520.00" height="80.00" rx="14" fill="white" stroke="#E0A526" stroke-width="2.5" opacity="1.0"/>
+<text x="420.00" y="359.80" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">ComputeLocalStamp</text>
+<line x1="420.00" y1="390.00" x2="420.00" y2="420.00" stroke="#6B4430" stroke-width="3" opacity="1.0"/>
+<polygon points="420.00,420.00 413.77,405.26 426.23,405.26" fill="#6B4430" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<rect x="160.00" y="424.00" width="520.00" height="80.00" rx="14" fill="#F3ECE6" stroke="#6B4430" stroke-width="2.5" opacity="1.0"/>
+<text x="420.00" y="460.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">FPaintCellGrid::Mark</text>
+<text x="420.00" y="492.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="24" fill="#2A221D" text-anchor="middle" font-weight="normal">25 cm 셀</text>
+<line x1="420.00" y1="504.00" x2="420.00" y2="534.00" stroke="#6B4430" stroke-width="3" opacity="1.0"/>
+<polygon points="420.00,534.00 413.77,519.26 426.23,519.26" fill="#6B4430" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<rect x="160.00" y="538.00" width="520.00" height="80.00" rx="14" fill="#F3ECE6" stroke="#6B4430" stroke-width="2.5" opacity="1.0"/>
+<text x="420.00" y="574.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">WorldCoverage</text>
+<text x="420.00" y="606.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="24" fill="#2A221D" text-anchor="middle" font-weight="normal">0.2 s마다 복제</text>
+<line x1="420.00" y1="618.00" x2="420.00" y2="648.00" stroke="#6B4430" stroke-width="3" opacity="1.0"/>
+<polygon points="420.00,648.00 413.77,633.26 426.23,633.26" fill="#6B4430" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<rect x="160.00" y="652.00" width="520.00" height="80.00" rx="14" fill="#F3ECE6" stroke="#6B4430" stroke-width="2.5" opacity="1.0"/>
+<text x="420.00" y="701.80" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">승패 · HUD</text>
+<rect x="920.00" y="310.00" width="520.00" height="80.00" rx="14" fill="white" stroke="#E0A526" stroke-width="2.5" opacity="1.0"/>
+<text x="1180.00" y="359.80" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">ComputeLocalStamp</text>
+<line x1="1180.00" y1="390.00" x2="1180.00" y2="420.00" stroke="#1FA88E" stroke-width="3" opacity="1.0"/>
+<polygon points="1180.00,420.00 1173.77,405.26 1186.23,405.26" fill="#1FA88E" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<rect x="920.00" y="424.00" width="520.00" height="80.00" rx="14" fill="#E2F4EF" stroke="#1FA88E" stroke-width="2.5" opacity="1.0"/>
+<text x="1180.00" y="460.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">BuildStampRects</text>
+<text x="1180.00" y="492.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="24" fill="#2A221D" text-anchor="middle" font-weight="normal">island별 사각형</text>
+<line x1="1180.00" y1="504.00" x2="1180.00" y2="534.00" stroke="#1FA88E" stroke-width="3" opacity="1.0"/>
+<polygon points="1180.00,534.00 1173.77,519.26 1186.23,519.26" fill="#1FA88E" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<rect x="920.00" y="538.00" width="520.00" height="80.00" rx="14" fill="#E2F4EF" stroke="#1FA88E" stroke-width="2.5" opacity="1.0"/>
+<text x="1180.00" y="574.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">Canvas → Scratch RT</text>
+<text x="1180.00" y="606.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="24" fill="#2A221D" text-anchor="middle" font-weight="normal">브러시 머티리얼</text>
+<line x1="1180.00" y1="618.00" x2="1180.00" y2="648.00" stroke="#1FA88E" stroke-width="3" opacity="1.0"/>
+<polygon points="1180.00,648.00 1173.77,633.26 1186.23,633.26" fill="#1FA88E" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<rect x="920.00" y="652.00" width="520.00" height="80.00" rx="14" fill="#E2F4EF" stroke="#1FA88E" stroke-width="2.5" opacity="1.0"/>
+<text x="1180.00" y="688.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">CopyTexture → Paint RT</text>
+<text x="1180.00" y="720.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="24" fill="#2A221D" text-anchor="middle" font-weight="normal">렌더 스레드</text>
+<line x1="1180.00" y1="732.00" x2="1180.00" y2="762.00" stroke="#1FA88E" stroke-width="3" opacity="1.0"/>
+<polygon points="1180.00,762.00 1173.77,747.26 1186.23,747.26" fill="#1FA88E" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<rect x="920.00" y="766.00" width="520.00" height="80.00" rx="14" fill="#E2F4EF" stroke="#1FA88E" stroke-width="2.5" opacity="1.0"/>
+<text x="1180.00" y="802.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="28" fill="#2B1B12" text-anchor="middle" font-weight="bold">MF_PaintOverlay</text>
+<text x="1180.00" y="834.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="24" fill="#2A221D" text-anchor="middle" font-weight="normal">화면</text>
+<line x1="800.00" y1="310.00" x2="800.00" y2="840.00" stroke="#D9D2CC" stroke-width="2" opacity="1.0" stroke-dasharray="10 8"/>
+<line x1="914.00" y1="692.00" x2="686.00" y2="692.00" stroke="#8A7F78" stroke-width="3" opacity="1.0" stroke-dasharray="10 8"/>
+<polygon points="686.00,692.00 700.74,685.77 700.74,698.23" fill="#8A7F78" stroke="none" stroke-width="2" opacity="1.0" stroke-linejoin="round"/>
+<line x1="780.00" y1="672.00" x2="820.00" y2="712.00" stroke="#D9654B" stroke-width="5" opacity="1.0"/>
+<line x1="780.00" y1="712.00" x2="820.00" y2="672.00" stroke="#D9654B" stroke-width="5" opacity="1.0"/>
+<text x="800.00" y="748.00" font-family="Malgun Gothic, 'Segoe UI', sans-serif" font-size="24" fill="#D9654B" text-anchor="middle" font-weight="bold">RT를 읽지 않음</text>
+</svg>
