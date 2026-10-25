@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440" font-family="Pretendard, Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18">
+<rect width="820" height="440" fill="white"/>
+<defs><marker id="aT" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#3FA58B"/></marker><marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#C4654A"/></marker><marker id="aI" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#2B2B2B"/></marker><marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="#8A8A8A"/></marker></defs>
+<path d="M370.0 140.0 L670.0 220.0 L430.0 360.0 L130.0 280.0 L370.0 140.0" fill="#EFEDEA" stroke="#CFCFCF" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="400.0" y1="250.0" x2="550.0" y2="290.0" stroke="#8A8A8A" stroke-width="2" marker-end="url(#aG)" stroke-dasharray="6 5"/>
+<text x="558" y="312" fill="#8A8A8A" font-size="18" text-anchor="start" font-weight="normal" >Pu</text>
+<line x1="400.0" y1="250.0" x2="280.0" y2="320.0" stroke="#8A8A8A" stroke-width="2" marker-end="url(#aG)" stroke-dasharray="6 5"/>
+<text x="270" y="344" fill="#8A8A8A" font-size="18" text-anchor="end" font-weight="normal" >Pv</text>
+<line x1="400.0" y1="250.0" x2="400.0" y2="80.0" stroke="#2B2B2B" stroke-width="2.5" marker-end="url(#aI)"/>
+<text x="410" y="86" fill="#2B2B2B" font-size="20" text-anchor="start" font-weight="bold" >n</text>
+<line x1="400.0" y1="250.0" x2="550.0" y2="230.5" stroke="#3FA58B" stroke-width="3" marker-end="url(#aT)"/>
+<text x="560.0" y="224.5" fill="#3FA58B" font-size="19" text-anchor="start" font-weight="bold" >Pu + hu·n</text>
+<line x1="400.0" y1="250.0" x2="280.0" y2="371.0" stroke="#3FA58B" stroke-width="3" marker-end="url(#aT)"/>
+<text x="270.0" y="397.0" fill="#3FA58B" font-size="19" text-anchor="end" font-weight="bold" >Pv + hv·n</text>
+<line x1="400.0" y1="250.0" x2="311.6" y2="87.2" stroke="#C4654A" stroke-width="3.5" marker-end="url(#aR)"/>
+<text x="297.5912841913885" y="81.16812794572118" fill="#C4654A" font-size="19" text-anchor="end" font-weight="bold" >노멀 = (Pu+hu·n) × (Pv+hv·n)</text>
+<circle cx="400" cy="250" r="5" fill="#2B2B2B"/>
+</svg>
